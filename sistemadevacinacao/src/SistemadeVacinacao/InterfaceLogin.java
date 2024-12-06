@@ -53,6 +53,9 @@ public class InterfaceLogin extends JPanel {
 		JButton btnNewButtonentrar = new JButton("entrar");
 		btnNewButtonentrar.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+/**
+* se usuario for @adm, levara pra InterfaceInicioADM, se for @func, levara pra InterfaceInicioFUNCIONARIO
+*/
 			}
 		});
 		btnNewButtonentrar.setBackground(new Color(255, 255, 255));
